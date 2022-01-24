@@ -5,10 +5,19 @@ header {
   background-color: purple;
   width: auto;
   text-align: center;
-  font-size: 30px;
-  padding: 5px 0px 0px 0px;
+  font-size: 20px;
+  padding: 0px 0px 0px 0px;
   height: 20vh;
   color: orange;
+}
+p {
+  color: orange;
+  background-color: purple;
+  padding: 30px;
+}
+#questions {
+  font-size: 20px;
+  text-align: center;
 }
 button {
   display: inline-block;
@@ -37,6 +46,7 @@ button:hover {
   display: flex;
   justify-content: center;
 }
+
 .container {
   width: 100vw;
   height: 60vh;
@@ -45,4 +55,99 @@ button:hover {
   align-items: center;
   max-width: 80rem;
   margin: 0 auto;
+}
+
+#result {
+  display: none;
+}
+#startpage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#timer {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: purple;
+  color: #eeeeee;
+  font-size: x-large;
+  text-shadow: 0.5px 0.5px black;
+  text-align: center;
+  color: orange;
+  height: 50px;
+}
+
+#quiz {
+  display: none;
+}
+
+#result {
+  display: none;
+}
+#gameover {
+  display: none;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+#highScore {
+  height: 1.5rem;
+}
+
+#high-scorePage {
+  display: none;
+  width: 50%;
+  border: solid;
+  border-color: black;
+  border-bottom-style: groove;
+  padding-bottom: 0.3rem;
+  background: purple;
+}
+
+#highscore-header {
+  display: flex;
+  justify-content: space-around;
+  border-bottom-style: outset;
+  margin-bottom: 0.5rem;
+  background-color: purple;
+  color: #eeeeee;
+  font-family: sans-serif;
+}
+#highscoreContainer {
+  height: 100%;
+  width: 100%;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#initials {
+  margin: 0.5rem;
+  height: 1.75rem;
+}
+
+#highscore-initials {
+  display: inline-block;
+  padding-left: 9.5rem;
+
+  font-weight: bold;
+}
+
+#highscore-score {
+  float: right;
+  padding-right: 9rem;
+  font-weight: bold;
+}
+
+#finalScore {
+  padding-bottom: 0.5rem;
+  font-size: x-large;
+
+  font-weight: bold;
+}
+
+#endGameBtns {
+  display: none;
 }
